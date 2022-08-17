@@ -61,9 +61,9 @@ $('#countdown').countdown({
 	  var el = $(this.el);
 	  el.empty()
 	    //.append("<div>" + this.leadingZeros(data.years, 4) + "<span>years</span></div>")
-	    .append("<div>" + this.leadingZeros(data.days, 2) + " <span>gün</span></div>")
-	    .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>saat</span></div>")
-	    .append("<div>" + this.leadingZeros(data.min, 2) + " <span>dakika</span></div>")
-	    .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>saniye</span></div>");
+	    .append("<div>" + this.leadingZeros(data.days, 1) + " <span>gün</span></div>")
+	    .append("<div>" + this.leadingZeros(data.hours, 1) + " <span>saat</span></div>")
+	    .append("<div>" + this.leadingZeros(data.min, 1) + " <span>dakika</span></div>")
+	    .append("<div>" + this.leadingZeros(data.sec, 1) + " <span>saniye</span></div>");
 	}
 });
